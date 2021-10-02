@@ -15,21 +15,29 @@ html{scroll-behavior:smooth;
   }
 
 h1 {
-  margin-top:15%;
+  margin-top:10%;
   text-align: center;
-  font-size:30px;
+  font-size:35px;
   font-family:monospace;
   user-select: none;
   animation:hover 3.5s infinite ease-in-out;
   -webkit-font-smoothing:antialiased;
-  z-index:-1
+  z-index:2
+}
+
+#footer {
+margin-top:37.5%;
+text-align:left;
+color:silver;
+font-size:15px;
+font-family:monospace;
 }
 
 @keyframes hover{
   0%{transform:translateY(0px)}
   25%{transform:translateX(-10px)}
   50%{transform:translateY(-10px)}
-  75%{transform:translateX(10px)}
+  75%{transform:translateX(-10px)}
   100%{transform:translateY(0px)}
 }
 
