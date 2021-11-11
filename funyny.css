@@ -1,0 +1,28 @@
+a {
+	text-decoration: none;
+    color: silver;
+}
+
+a:hover {
+	filter: drop-shadow(0px 0px 2px white);
+}
+
+b {
+    text-decoration: none;
+}
+
+pre {
+	font-size: 9pt;
+	padding-left: 0.5%;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+body {
+	background-color: #000;
+	color: #FFF;
+}
+
+.iconify{
+	margin-top:40.5%;
+    text-align:left;
+}
